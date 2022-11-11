@@ -2,7 +2,23 @@
 name = "setfitonnx"
 version = "0.1.0"
 description = "Package to pack setfit model to onnx format"
-authors = ["vimal-quilt <vimal@quilt.ai>"]
+authors = ["Vimal Babu <personal.vimal@gmail.com"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/vimal-b/setfitonnx"
+repository = "https://github.com/vimal-b/setfitonnx"
+keywords = ["setfit", "onnx", "sentence-transformers","onnxruntime"]
+classifiers = [
+    "Environment :: Console",
+    "Framework :: setfit",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
